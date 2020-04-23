@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Argentinean Steakhouse</title>
+
+    <script>
+        document.getElementById("demo").innerHTML = "My First JavaScript";
+        </script>
+
+</head>
+<body>
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+
+   <header class="page-header">
+    <img src="/images/maderos5.png" alt="" srcset="" class="header-logo-img left"> 
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contactus.html">Contact Us</a>
+    </div>
+</header>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="container">
+    <form action="action_page.php">
+  
+       <label for="fname" style="color: goldenrod;"> Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname" style="color: goldenrod;">Email</label>
+      <input type="text" id="email" name="lastname" placeholder="Your email.">
+
+      <label for="lname" style="color: goldenrod;">Phone Number</label>
+      <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number..">
+  
+     <label for="country" style="color: goldenrod">Country</label>
+     <select id="country" name="country">
+     <option value="canada">USA</optio>
+     <option value="usa">Canada</option>
+     <option value="usa">Mexico</option> 
+     <option value="usa">Argentina</option>
+     <option value="usa">UK</option>
+     <option value="usa">Germany</option>
+     <option value="usa">France</option>
+     
+      </select>
+  
+      <label for="subject" style="color: goldenrod;">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
