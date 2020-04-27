@@ -1,9 +1,7 @@
 # nvwebdev.github.io
-A restaruant based of true hard core fundamentals, opened by a first generation American family. Who hasn't forgotton what true hard work 
-and dedication to the community. 
-
-A website that is functional to use on a mobile device while not missing out on anything that would be shown on a 
-PC. A clean format, that is easy to navigate and also detailed. A reservation form online so customers won't have to call in and be on hold or have to wait in long line.
-
-I want the user to have a easy experience while getting all the information they are looking for. 
-
+ #1
+ As a customer I want it to be a family friendly restaurant with details aI wabout the background of the owners.
+ #2
+ As a potential customer I want it to be mobile friendly, so I don't have to go to the PC or laptop and can do it on the go for reservations.
+ #3
+Being a customer I would like the interior and exterior of the restaurant display some of the dinning halls. So I can decide if this would be a potential spot for events I am hosting, 
